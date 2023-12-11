@@ -1,0 +1,117 @@
+[/]
+alttab-switcher-delay=100
+desklet-decorations=0
+desklet-snap-interval=25
+enabled-applets=['panel2:right:8:notifications@cinnamon.org:5', 'panel2:right:3:removable-drives@cinnamon.org:7', 'panel2:right:5:favorites@cinnamon.org:9', 'panel2:right:6:network@cinnamon.org:10', 'panel2:right:9:sound@cinnamon.org:11', 'panel2:right:12:calendar@cinnamon.org:13', 'panel2:right:10:user@cinnamon.org:18', 'panel2:left:0:grouped-window-list@cinnamon.org:24', 'panel2:right:2:systray@cinnamon.org:26', 'panel2:right:1:temperature@fevimu:27', 'panel2:right:11:weather@mockturtl:28', 'panel2:right:13:cornerbar@cinnamon.org:29']
+enabled-desklets=['deskNote@BrainAxe:7:100:100']
+hotcorner-layout=['expo:false:0', 'scale:false:0', 'scale:false:0', 'desktop:false:0']
+lock-desklets=false
+next-applet-id=32
+next-desklet-id=21
+no-adjacent-panel-barriers=false
+panel-edit-mode=false
+panel-zone-icon-sizes='[{"left":0,"center":0,"right":0,"panelId":2}]'
+panel-zone-symbolic-icon-sizes='[{"left": 28, "center": 28, "right": 16, "panelId": 2}]'
+panel-zone-text-sizes='[{"left":0,"center":0,"right":0,"panelId":2}]'
+panels-autohide=['1:false', '2:false']
+panels-enabled=['2:0:bottom']
+panels-height=['1:28', '2:40']
+panels-hide-delay=['1:0', '2:0']
+panels-show-delay=['1:0', '2:0']
+window-effect-speed=1
+workspace-osd-visible=false
+
+[cinnamon-session]
+quit-time-delay=60
+
+[desktop/a11y/applications]
+screen-keyboard-enabled=false
+screen-reader-enabled=false
+
+[desktop/a11y/keyboard]
+bouncekeys-delay=300
+bouncekeys-enable=false
+mousekeys-accel-time=300
+mousekeys-init-delay=300
+mousekeys-max-speed=10
+slowkeys-delay=300
+
+[desktop/a11y/mouse]
+dwell-click-enabled=false
+dwell-threshold=10
+dwell-time=1.2
+secondary-click-enabled=false
+secondary-click-time=1.2
+
+[desktop/applications/calculator]
+exec='gnome-calculator'
+
+[desktop/applications/terminal]
+exec='gnome-terminal'
+exec-arg='--'
+
+[desktop/background]
+picture-options='zoom'
+picture-uri='file:///home/thatonebyte/Downloads/mohammadreza-alidoost-YTwlGwWLVC4-unsplash.jpg'
+primary-color='#023c88'
+secondary-color='#5789ca'
+
+[desktop/background/slideshow]
+delay=15
+image-source='directory:///home/thatonebyte/Downloads'
+
+[desktop/interface]
+clock-show-date=false
+clock-show-seconds=false
+clock-use-24h=false
+cursor-blink-time=1200
+font-name='Fira Sans 9'
+gtk-theme='Colloid-Dark'
+icon-theme='ePapirus-Dark'
+text-scaling-factor=1.0
+toolkit-accessibility=false
+
+[desktop/keybindings]
+custom-list=['__dummy__']
+
+[desktop/keybindings/media-keys]
+area-screenshot=@as []
+home=['XF86Explorer']
+search=@as []
+terminal=@as []
+www=@as []
+
+[desktop/keybindings/wm]
+close=['<Alt>F4', '<Shift><Alt>c']
+maximize=['<Shift><Alt>Up']
+unmaximize=['<Shift><Alt>Down']
+
+[desktop/media-handling]
+autorun-never=false
+
+[desktop/peripherals/keyboard]
+delay=uint32 500
+numlock-state=false
+repeat-interval=uint32 30
+
+[desktop/sound]
+event-sounds=false
+
+[desktop/wm/preferences]
+button-layout=':minimize,maximize,close'
+min-window-opacity=30
+titlebar-font='Fira Sans Bold 10'
+
+[launcher]
+check-frequency=300
+memory-limit=2048
+
+[muffin]
+draggable-border-width=10
+tile-maximize=true
+
+[settings-daemon/peripherals/keyboard]
+numlock-state='off'
+
+[theme]
+name='Colloid-Dark'
